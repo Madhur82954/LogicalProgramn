@@ -9,6 +9,7 @@ namespace Day6_LogicalProgramning
         public void CheckFibonnaciSeries()
         {
             int p1 = 0, p2 = 1, p3;
+            Console.WriteLine("---------------- Fibonnaci  Series------------------");
             Console.Write("Enter number = ");
             int n = Int32.Parse(Console.ReadLine());
             Console.Write(p1 + " " + p2);
