@@ -6,7 +6,7 @@ namespace Day6_LogicalProgramning
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter option \n1) Fibonnaci Series\n2) Perfect Number\n3) Prime Number");
+            Console.WriteLine("Enter option \n1) Fibonnaci Series\n2) Perfect Number\n3) Prime Number\n4) Reverse Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -23,6 +23,11 @@ namespace Day6_LogicalProgramning
                 case 3:
                     PrimeNumber prime = new PrimeNumber();
                     prime.CheckPrimeNumber();
+                    break;
+
+                case 4:
+                    ReverseNumber reverse = new ReverseNumber();
+                    reverse.checkReverseNumber();
                     break;
             }
         }
